@@ -313,7 +313,7 @@ class Mainthread(QThread):
                     os.system("TASKKILL /F /IM Discord.exe")
 
                 elif'send message' in self.query:
-                    kit.sendwhatmsg("+918890724525", "Hello, How are you?",14,20)
+                    kit.sendwhatmsg("+91xxxxxx", "Hello, How are you?",14,20)
 
                 elif'switch the window' in self.query:
                     speak("Switching the window")
