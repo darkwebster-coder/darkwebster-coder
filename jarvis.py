@@ -284,12 +284,6 @@ class Mainthread(QThread):
                 elif'close site' in self.query:
                     speak("Closing site")
                     os.system("TASKKILL /F /IM xampp-control.exe")
-
-                elif'i am horney' in self.query:
-                    speak("i am horny too")
-                    speak("So lets just watch porn together , opening porn site")
-                    porn = "https://goodporn.to/"
-                    webbrowser.open(porn)
                 
                 elif'open steam' in self.query:
                     speak("Opening Steam")
@@ -365,9 +359,9 @@ class Mainthread(QThread):
                     speak("what should i say?")
                     query = self.takeCommand().lower()
                     if 'send a file' in self.query:
-                        username = 'thehackersclue@gmail.com'
-                        password = 'ebaaqoujplweiaoz'
-                        send_to_email = 'rakshitrakshit26@gmail.com'
+                        username = 'X'
+                        password = 'XXX'
+                        send_to_email = 'X'
                         speak("okay sir,What is the subject for this email?")
                         query = self.takeCommand().lower()
                         subject = query
@@ -403,9 +397,9 @@ class Mainthread(QThread):
                         server.quit()       
                         speak("Email has been sent to hacker")                                         
                     else:
-                        username = 'thehackersclue@gmail.com'
-                        password = 'ebaaqoujplweiaoz'
-                        send_to_email = 'rakshitrakshit26@gmail.com'
+                        username = 'X'
+                        password = 'XXX'
+                        send_to_email = 'X'
                         message = query2
                         server = smtplib.SMTP('smtp.gmail.com', 587)
                         server.starttls()
